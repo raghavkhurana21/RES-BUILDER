@@ -14,7 +14,7 @@ const nextConfig = {
     ],
   },
   images: {
-    domains: ['avatars.githubusercontent.com'],
+    domains: ['avatars.githubusercontent.com', 'drive.google.com'],
   },
   async redirects() {
     return [

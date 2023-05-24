@@ -44,7 +44,7 @@ const HomeLayout = () => {
               <StyledButton variant="text">About us</StyledButton>
             </Link>
             <a
-              href={'https://github.com/sadanandpai/resume-builder'}
+              href={'https://github.com/Jaahnvim '}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -173,8 +173,7 @@ const HomeLayout = () => {
       >
         <h2 className="text-resume-800 text-3xl mb-2 text-center lg:text-left">About us</h2>
         <p className="text-resume-400 mb-8 text-center lg:text-left">
-          A bunch of developers and designers — who love to build open source projects and learn
-          along!
+          The Developers played crucial role in building the project
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <Person />

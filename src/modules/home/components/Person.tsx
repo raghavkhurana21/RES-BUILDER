@@ -2,33 +2,20 @@ import Image from 'next/image';
 
 const persons = [
   {
-    name: 'Sadanand Pai',
+    name: 'Jaahnvi Manocha',
     role: 'Frontend developer',
-    avatar: 'https://avatars.githubusercontent.com/u/12962887?v=4',
-    github: 'https://github.com/sadanandpai',
-    linkedin: 'https://www.linkedin.com/in/sadanandpai/',
+    avatar: '/templates/pic2.png',
+    github: 'https://github.com/Jaahnvim',
+    linkedin: 'https://www.linkedin.com/in/jaahnvi-manocha-254906271/',
   },
+  
   {
-    name: 'Gopalakrishnan',
-    role: 'Frontend developer',
-    avatar: 'https://avatars.githubusercontent.com/u/22369081?v=4',
-    github: 'https://github.com/gopal1996',
-    linkedin: 'https://www.linkedin.com/in/gopal1996',
-  },
-  {
-    name: 'Vivek G',
-    role: 'Product designer, half developer',
-    avatar: 'https://avatars.githubusercontent.com/u/26523871?v=4',
-    github: 'https://github.com/yakshaG',
-    linkedin: 'https://www.linkedin.com/in/vivek-g-india',
-  },
-  {
-    name: 'Siva K',
-    role: 'Frontend developer',
-    avatar: 'https://avatars.githubusercontent.com/u/60533560?v=4',
-    github: 'https://github.com/siva-kannan3',
-    linkedin: 'https://www.linkedin.com/in/siva-kannan3/',
-  },
+    name: 'Anvi arora',
+    role: 'Backend developer',
+    avatar: '/templates/pic1.png',
+    github: 'https://github.com/arora-anvi',
+    linkedin: 'https://www.linkedin.com/in/anvi-arora-1037a6271',
+  }
 ];
 
 const PersonCard = ({ children }: { children: React.ReactNode }) => (
